@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ancuesta <ancuesta@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ancuesta <ancuesta@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/17 13:38:50 by ancuesta          #+#    #+#             */
-/*   Updated: 2024/04/25 16:23:41 by ancuesta         ###   ########.fr       */
+/*   Updated: 2024/06/09 19:35:22 by ancuesta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,15 +31,3 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
-
-/*int main(void)
-{
-   char src[5] = "\0";
-   char dst[5] = "\0";
-   //printf("%s\n", memcpy(dst, src, 4)); // original
-   //printf("%s\n", dst); // hola               
-   printf("%s\n", ft_memcpy(dst, src, 8)); // mine
-   printf("%s\n", dst); 
-   printf("%s\n", src); 
-   return (0);
-}*/

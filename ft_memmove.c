@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ancuesta <ancuesta@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ancuesta <ancuesta@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/18 13:28:34 by ancuesta          #+#    #+#             */
-/*   Updated: 2024/04/25 13:19:52 by ancuesta         ###   ########.fr       */
+/*   Updated: 2024/06/09 19:35:27 by ancuesta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,15 +41,3 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (dst);
 }
-
-/*int main(void)
-{
-   char src[] = "abecedario";
-   char dst[10] = "";
-   printf("%s\n", memmove(dst, src, 4)); // original
-   printf("%s\n", dst); // hola               
-   printf("%s\n", ft_memmove(dst, src, 8)); // mine
-   printf("%s\n", dst); 
-   printf("%s\n", src); 
-   return (0);
-}*/

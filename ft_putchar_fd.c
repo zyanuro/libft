@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ancuesta <ancuesta@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ancuesta <ancuesta@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/15 17:36:17 by ancuesta          #+#    #+#             */
-/*   Updated: 2024/05/15 17:36:28 by ancuesta         ###   ########.fr       */
+/*   Updated: 2024/06/09 19:35:47 by ancuesta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void ft_putchar_fd(char c, int fd)
+void	ft_putchar_fd(char c, int fd)
 {
-    write(fd, &c, 1);
+	write(fd, &c, 1);
 }

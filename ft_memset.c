@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ancuesta <ancuesta@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ancuesta <ancuesta@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/09 13:54:45 by ancuesta          #+#    #+#             */
-/*   Updated: 2024/04/25 16:09:19 by ancuesta         ###   ########.fr       */
+/*   Updated: 2024/06/09 17:57:08 by ancuesta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,11 +24,3 @@ void	*ft_memset(void *ptr, int value, size_t num)
 	}
 	return (ptr);
 }
-
-/*int main()
-{
-	char str[] = "abecedario";
-	ft_memset(str, 'R', 3);
-	printf("%s", str);
-	return 0;
-}*/

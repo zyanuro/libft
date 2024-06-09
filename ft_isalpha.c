@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ancuesta <ancuesta@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ancuesta <ancuesta@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/08 11:43:06 by ancuesta          #+#    #+#             */
-/*   Updated: 2024/04/25 13:09:07 by ancuesta         ###   ########.fr       */
+/*   Updated: 2024/06/09 19:23:22 by ancuesta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,13 +17,3 @@ int	ft_isalpha(int c)
 {
 	return ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'));
 }
-
-/*int main()
-{
-	int tester;
-	int testerM;
-	testerM = ft_isalpha('a');
-	tester = isalpha('a');
-	printf("El numero es:%d - %d", testerM, tester);
-return 0;
-}*/

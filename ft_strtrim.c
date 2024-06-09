@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ancuesta <ancuesta@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ancuesta <ancuesta@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/17 17:38:31 by ancuesta          #+#    #+#             */
-/*   Updated: 2024/05/17 18:59:34 by ancuesta         ###   ########.fr       */
+/*   Updated: 2024/06/09 19:49:49 by ancuesta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,10 +25,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 		i--;
 	return (ft_substr((char *)s1, 0, i + 1));
 }
-/*int main()
-{
-    char const *s1 = "cadaena";
-    char const *set = "ca";
-    char *new_s = ft_strtrim(s1, set);
-    printf("%s", new_s);
-}*/

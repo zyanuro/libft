@@ -3,20 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ancuesta <ancuesta@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ancuesta <ancuesta@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/17 18:38:20 by ancuesta          #+#    #+#             */
-/*   Updated: 2024/05/17 18:39:05 by ancuesta         ###   ########.fr       */
+/*   Updated: 2024/06/09 19:42:32 by ancuesta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void    ft_striteri(char *s, void (*f)(unsigned int, char*))
+void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {
-    int i;
-    i = 0;
-    while (s[i] != '\0')
-    {
-        f(i, &s[i]);
-        i++;
-    }
+	int	i;
+
+	i = 0;
+	while (s[i] != '\0')
+	{
+		f(i, &s[i]);
+		i++;
+	}
 }
