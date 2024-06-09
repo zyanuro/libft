@@ -2,7 +2,7 @@
 NAME = libft.a
 
 # Compiler and compilation options
-CC = gcc
+CC = clang
 CFLAGS = -Wall -Werror -Wextra
 
 # Sources
