@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: ancuesta <ancuesta@student.42malaga.com    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2024/06/13 23:03:42 by ancuesta          #+#    #+#              #
+#    Updated: 2024/06/13 23:03:54 by ancuesta         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 # Library name
 NAME = libft.a
 
@@ -67,4 +79,4 @@ fclean: clean
 # Rule to rebuild the project from scratch
 re: fclean all
 
-.PHONY: clean fclean all re norme
+.PHONY: clean fclean all re 

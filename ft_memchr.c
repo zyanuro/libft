@@ -6,12 +6,10 @@
 /*   By: ancuesta <ancuesta@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/30 13:20:51 by ancuesta          #+#    #+#             */
-/*   Updated: 2024/06/09 19:24:43 by ancuesta         ###   ########.fr       */
+/*   Updated: 2024/06/13 20:50:55 by ancuesta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
 #include "libft.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)

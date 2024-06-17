@@ -6,13 +6,11 @@
 /*   By: ancuesta <ancuesta@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/08 18:16:03 by ancuesta          #+#    #+#             */
-/*   Updated: 2024/06/09 19:33:23 by ancuesta         ###   ########.fr       */
+/*   Updated: 2024/06/13 20:55:48 by ancuesta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
-#include <stddef.h>
+#include "libft.h"
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {

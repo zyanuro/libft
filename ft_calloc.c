@@ -6,13 +6,10 @@
 /*   By: ancuesta <ancuesta@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/09 17:27:56 by ancuesta          #+#    #+#             */
-/*   Updated: 2024/06/09 19:00:16 by ancuesta         ###   ########.fr       */
+/*   Updated: 2024/06/13 20:48:44 by ancuesta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <strings.h>
-#include <stdlib.h>
 #include "libft.h"
 
 void	*ft_calloc(size_t count, size_t size)

@@ -6,12 +6,10 @@
 /*   By: ancuesta <ancuesta@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/23 16:32:41 by ancuesta          #+#    #+#             */
-/*   Updated: 2024/06/09 19:44:42 by ancuesta         ###   ########.fr       */
+/*   Updated: 2024/06/13 20:58:48 by ancuesta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
 #include "libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)

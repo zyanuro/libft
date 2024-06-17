@@ -6,13 +6,10 @@
 /*   By: ancuesta <ancuesta@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/09 16:51:43 by ancuesta          #+#    #+#             */
-/*   Updated: 2024/06/09 19:22:50 by ancuesta         ###   ########.fr       */
+/*   Updated: 2024/06/13 20:48:29 by ancuesta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <strings.h>
-#include <stdlib.h>
 #include "libft.h"
 
 int	ft_atoi(const char *str)

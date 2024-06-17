@@ -6,13 +6,9 @@
 /*   By: ancuesta <ancuesta@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/26 19:30:13 by ancuesta          #+#    #+#             */
-/*   Updated: 2024/06/09 19:54:03 by ancuesta         ###   ########.fr       */
+/*   Updated: 2024/06/13 20:59:52 by ancuesta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
-#include <string.h>
-#include <ctype.h>
 
 #include "libft.h"
 

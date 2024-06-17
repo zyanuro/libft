@@ -6,11 +6,11 @@
 /*   By: ancuesta <ancuesta@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/17 17:50:37 by ancuesta          #+#    #+#             */
-/*   Updated: 2024/06/09 19:38:23 by ancuesta         ###   ########.fr       */
+/*   Updated: 2024/06/13 20:58:06 by ancuesta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 void	ft_putnbr_fd(int n, int fd)
 {

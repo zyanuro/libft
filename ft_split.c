@@ -6,12 +6,11 @@
 /*   By: ancuesta <ancuesta@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/07 11:00:12 by ancuesta          #+#    #+#             */
-/*   Updated: 2024/06/07 11:28:05 by ancuesta         ###   ########.fr       */
+/*   Updated: 2024/06/13 20:58:21 by ancuesta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 static size_t	ft_countwords(const char *s, const char c)
 {

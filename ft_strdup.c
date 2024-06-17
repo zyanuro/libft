@@ -6,14 +6,10 @@
 /*   By: ancuesta <ancuesta@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/09 19:40:33 by ancuesta          #+#    #+#             */
-/*   Updated: 2024/06/09 19:42:05 by ancuesta         ###   ########.fr       */
+/*   Updated: 2024/06/13 20:58:34 by ancuesta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include "libft.h"
 
 char	*ft_strdup(const char *s1)

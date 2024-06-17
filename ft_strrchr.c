@@ -6,12 +6,10 @@
 /*   By: ancuesta <ancuesta@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/30 12:28:20 by ancuesta          #+#    #+#             */
-/*   Updated: 2024/06/09 19:49:44 by ancuesta         ###   ########.fr       */
+/*   Updated: 2024/06/13 20:59:41 by ancuesta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
 #include "libft.h"
 
 char	*ft_strrchr(const char *s, int c)

@@ -6,13 +6,11 @@
 /*   By: ancuesta <ancuesta@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/30 10:22:40 by ancuesta          #+#    #+#             */
-/*   Updated: 2024/06/09 19:48:02 by ancuesta         ###   ########.fr       */
+/*   Updated: 2024/06/13 20:59:27 by ancuesta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <ctype.h>
-#include <string.h>
+#include "libft.h"
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {

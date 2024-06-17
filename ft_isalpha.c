@@ -6,12 +6,9 @@
 /*   By: ancuesta <ancuesta@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/08 11:43:06 by ancuesta          #+#    #+#             */
-/*   Updated: 2024/06/09 19:23:22 by ancuesta         ###   ########.fr       */
+/*   Updated: 2024/06/13 20:49:02 by ancuesta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
-#include <ctype.h>
 
 int	ft_isalpha(int c)
 {

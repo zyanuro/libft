@@ -6,11 +6,11 @@
 /*   By: ancuesta <ancuesta@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/17 17:46:25 by ancuesta          #+#    #+#             */
-/*   Updated: 2024/06/09 19:39:13 by ancuesta         ###   ########.fr       */
+/*   Updated: 2024/06/13 20:58:12 by ancuesta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 void	ft_putstr_fd(char *s, int fd)
 {

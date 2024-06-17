@@ -6,12 +6,9 @@
 /*   By: ancuesta <ancuesta@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/09 13:17:47 by ancuesta          #+#    #+#             */
-/*   Updated: 2024/06/09 17:56:31 by ancuesta         ###   ########.fr       */
+/*   Updated: 2024/06/13 20:50:39 by ancuesta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
-#include <ctype.h>
 
 int	ft_isprint(int c)
 {

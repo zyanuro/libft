@@ -6,12 +6,11 @@
 /*   By: ancuesta <ancuesta@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/17 13:38:50 by ancuesta          #+#    #+#             */
-/*   Updated: 2024/06/09 19:35:22 by ancuesta         ###   ########.fr       */
+/*   Updated: 2024/06/13 20:55:18 by ancuesta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
-#include <stdio.h>
+#include "libft.h"
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
